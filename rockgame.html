@@ -4,13 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <link rel="stylesheet" href="mystyle.css">
-    <script src="rockGame.js"></script>
+    <link rel="stylesheet" href="style.css">
+    
 
     <title>Document</title>
 </head>
 <body>
-    
-    
+   <div id="outdiv">
+      <h3>Pick your arms three times.</h2>
+      <div class="centerdiv">
+         <button id="btn1" class="buttonHover" >Rock</button>
+         <button id="btn2" class="buttonHover">Papers</button>
+         <button id="btn3" class="buttonHover">Scissors</button>
+      </div>
+      <div class="centerdiv">
+         <h2 id="gameAnnouncement">Your game details</h1>
+         <p id="playNumber">** Play Number **</p>
+            <div class="rounds">
+                
+                 <button id="userScore">Round Score</button>
+                 <button id="computerScore">Round Score</button>
+               
+            </div>
+      </div>
+      <div class="centerdiv" >
+         <h2 id="totalScore">Total Scores</h1>
+           <div class="rounds" id="finalColor">
+              <button id="userScores">Your Score</button>
+         
+              <button id="computerScores">Robot Score</button>
+           </div>
+           <button id="restart">Restart</button>
+      </div>
+
+      
+   </div>
+   <script src="rockGame.js"></script>
 </body>
 </html>
