@@ -5,8 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    
-
     <title>Document</title>
 </head>
 <body>
@@ -20,24 +18,28 @@
       <div class="centerdiv">
          <h2 id="gameAnnouncement">Your game details</h1>
          <p id="playNumber">** Play Number **</p>
-            <div class="rounds">
-                
+            <div class="rounds">   
                  <button id="userScore">Round Score</button>
                  <button id="computerScore">Round Score</button>
-               
             </div>
       </div>
       <div class="centerdiv" >
          <h2 id="totalScore">Total Scores</h1>
            <div class="rounds" id="finalColor">
               <button id="userScores">Your Score</button>
-         
               <button id="computerScores">Robot Score</button>
            </div>
            <button id="restart">Restart</button>
       </div>
-
-      
+      <footer class="footer">
+         <p>
+           Copyright ©
+           <script>
+             document.write(new Date().getFullYear())
+           </script>
+           Abderrahmane Chagour
+         </p>
+       </footer>
    </div>
    <script src="rockGame.js"></script>
 </body>
