@@ -122,7 +122,7 @@ function game(userSelection, gameCount){
           computerFinScores.innerText = "Robot: " + computerScores;
 
         }  
-        if(clickCount >= 3 ){
+        if(clickCount >= 5 ){
           btn1.disabled = true;
           btn2.disabled = true;
           btn3.disabled = true;
